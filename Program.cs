@@ -29,7 +29,7 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 
 AB = корень((Х2 -Х1) в квадрате + (Y2 -Y1) в квадрате + (Z2 - Z1) в квдрате)) */
 
-Console.WriteLine("Введите первую координату X");
+/* Console.WriteLine("Введите первую координату X");
 int Xa = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите первую координату Y");
 int Ya = int.Parse(Console.ReadLine()!);
@@ -44,4 +44,23 @@ int Zb = int.Parse(Console.ReadLine()!);
 
 double result = Math.Sqrt (Math.Pow ((Xb - Xa), 2) + Math.Pow ((Yb - Ya), 2) + Math.Pow ((Zb - Za), 2));
 
-Console.WriteLine(result);
+Console.WriteLine(result); */
+
+/* Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов 
+чисел от 1 до N. */
+
+/* Console.WriteLine("Введите больше 1");
+int num = int.Parse(Console.ReadLine()!);
+int start = 1;
+
+if(num < start){
+    Console.WriteLine("Вы ввели нее верное число");
+}
+else{
+    while(num > start){
+        Console.Write($"{Math.Pow(start, 3)}, ");
+        start++;
+    }
+    Console.WriteLine($"{Math.Pow(num, 3)}");
+} */
+
